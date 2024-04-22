@@ -18,7 +18,7 @@ const Container = (Hero) => {
         if (lat && lon) {
           const response = await fetch(
             // `http://localhost:5000/api/weather?lat=${lat}&lon=${lon}`
-            `https://weather-app-sky-gazer-backend.vercel.app/api/weather?lat=${lat}&lon=${lon}`
+            `https://weather-app-sky-gazer-backend-new.vercel.app/api/weather?lat=${lat}&lon=${lon}`
           );
           if (response) {
             const responseData = await response.json();
@@ -32,7 +32,7 @@ const Container = (Hero) => {
         }
          else {
             const response = await fetch(
-              `https://weather-app-sky-gazer-backend.vercel.app/api/weather?place=${place}`
+              `https://weather-app-sky-gazer-backend-new.vercel.app/api/weather?place=${place}`
             );
             if (response) {
               const responseData = await response.json();
