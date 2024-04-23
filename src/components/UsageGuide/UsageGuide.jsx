@@ -2,7 +2,7 @@ import React from "react";
 
 const UsageGuide = () => {
   return (
-    <div className="w-full">
+    <div className="w-full min-h-screen">
       <div className="w-[60%] mx-auto my-10 p-10 flex flex-col items-start justify-center gap-10 bg-gradient-to-r from-red-400 via-gray-300 to-blue-500 rounded-lg text-2xl text-white">
         <span>
           This is a user guide for using this application for better user

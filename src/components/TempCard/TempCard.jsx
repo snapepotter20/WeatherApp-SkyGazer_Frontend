@@ -14,7 +14,7 @@ const TempCard = ({ locationName, weather }) => {
   }, [weather]);
 
   return (
-    <div className="w-[90%] mb-10">
+    <div className="w-[90%] mb-20">
       <div className="mt-8 text-blue-500 text-semibold flex items-center justify-center gap-2">
         <span className="text-[30px]">Weather for</span>
         {locationName ? (

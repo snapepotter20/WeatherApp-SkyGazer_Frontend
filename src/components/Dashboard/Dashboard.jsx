@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Hero , UsageGuide } from "../../components";
+import { AboutUs, Header, Hero , UsageGuide , Footer } from "../../components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const Dashboard = () => {
   return (
@@ -9,7 +9,9 @@ const Dashboard = () => {
         <Routes>
           <Route path="/" element={<Hero/>}/>
           <Route path="/usageguide" element={<UsageGuide/>}/>
+          <Route path="/aboutus" element={<AboutUs/>}/>
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );

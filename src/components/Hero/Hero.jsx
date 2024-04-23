@@ -18,7 +18,7 @@ const Hero = (props) => {
     setPlace
   } = props;
   return (
-    <div className="flex flex-col items-center justify-center w-full">
+    <div className="flex flex-col items-center justify-center w-full min-h-screen">
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 w-[70%] my-10">
         <div
           className={`w-full md:w-[30%] border p-3 rounded-lg cursor-pointer text-center font-semibold text-white ${
